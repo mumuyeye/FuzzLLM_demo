@@ -1,0 +1,261 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+select {
+    font-weight: bold;
+}
+.select.is-medium {
+     font-size: 0.7rem !important;
+}
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+
+.interpolation-panel {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.interpolation-panel .interpolation-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.interpolation-video-column {
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.singleArrow {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  right: 50%;  /* 箭头位置 */
+  background-color: #423f3f;
+  transform: rotate(90deg);  /* 旋转角度 */
+}
+.singleArrow::after {
+  content: '';
+  /*display: block;*/
+  position: absolute;
+  right: -20px;  /* 箭头位置 */
+  top: -5px;  /* 箭头位置 */
+  border-top: 10px solid transparent; 	/* 箭头高低 */
+  border-bottom: 10px solid transparent; /* 箭头高低 */
+  border-left: 20px solid #423f3f; /* 箭头长度*/
+}
+.mutsingleArrow {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  right: 50%;  /* 箭头位置 */
+  background-color: #a72c2c;
+  transform: rotate(90deg);  /* 旋转角度 */
+}
+.mutsingleArrow::after {
+  content: '';
+  /*display: block;*/
+  position: absolute;
+  right: -20px;  /* 箭头位置 */
+  top: -5px;  /* 箭头位置 */
+  border-top: 10px solid transparent; 	/* 箭头高低 */
+  border-bottom: 10px solid transparent; /* 箭头高低 */
+  border-left: 20px solid #a72c2c; /* 箭头长度*/
+}
+.add {
+  border: 0px solid;
+  left: 45%;  /* 箭头位置 */
+  width: 50px;
+  height: 50px;
+  color: #423f3f;
+  transition: color .25s;
+  position: relative;
+
+}
+.add::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 40px;
+  margin-left: -20px;
+  margin-top: -5px;
+  border-top: 10px solid;
+}
+.add::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: -20px;
+  border-left: 10px solid;
+ }
+ 
+ .container{
+}
+.container pre{
+	white-space: pre-wrap; 
+  word-wrap: break-word; 
+  font-family: Arial;
+}
+
+
+#interpolation-image-wrapper {
+  width: 100%;
+}
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
